@@ -1,0 +1,54 @@
+// ********************************
+// 共通css
+// ********************************
+
+
+
+@font-face {
+  font-family: "NotoSansJP";
+  src: url(../fonts/NotoSansJP-Regular.woff2) format('woff2'),
+    url(../fonts/NotoSansJP-Thin.woff2) format('woff2'),
+    url(../fonts/NotoSansJP-Light.woff2) format('woff2'),
+    url(../fonts/NotoSansJP-Medium.woff2) format('woff2'),
+    url(../fonts/NotoSansJP-Bold.woff2) format('woff2'),
+    url(../fonts/NotoSansJP-Black.woff2) format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NotoSerifJP";
+  src: url(../fonts/NotoSerifJP-Regular.woff2) format('woff2'),
+    url(../fonts/NotoSerifJP-Medium.woff2) format('woff2'),
+    url(../fonts/NotoSerifJP-SemiBold.woff2) format('woff2'),
+    url(../fonts/NotoSerifJP-Bold.woff2) format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.woff2) format('woff2'),
+    url(../fonts/Roboto-Italic.woff2) format('woff2'),
+    url(../fonts/Roboto-Light.woff2) format('woff2'),
+    url(../fonts/Roboto-LightItalic.woff2) format('woff2'),
+    url(../fonts/Roboto-Medium.woff2) format('woff2'),
+    url(../fonts/Roboto-MediumItalic.woff2) format('woff2'),
+    url(../fonts/Roboto-Bold.woff2) format('woff2'),
+    url(../fonts/Roboto-BoldItalic.woff2) format('woff2'),
+    url(../fonts/Roboto-Black.woff2) format('woff2'),
+    url(../fonts/Roboto-ThinItalic.woff2) format('woff2'),
+    url(../fonts/Roboto-Thin.woff2) format('woff2'),
+    url(../fonts/Roboto-BlackItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+/* roboto-condensed-300 - latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url(../fonts/Roboto-Condensed-Light.woff2) format('woff2'),
+    url(../fonts/Roboto-Condensed-LightItalic.woff2) format('woff2'),
+    url(../fonts/Roboto-Condensed-Regular.woff2) format('woff2'),
+    url(../fonts/Roboto-Condensed-Italic.woff2) format('woff2'),
+    url(../fonts/Roboto-Condensed-Bold.woff2) format('woff2'),
+    url(../fonts/Roboto-Condensed-BoldItalic.woff2) format('woff2');
+  font-display: swap;
+}

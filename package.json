@@ -1,0 +1,23 @@
+{
+  "name": "shitsukawadesu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/sass:dist/css/ --no-source-map --watch",  
+    "postcss": "postcss dist/css/style.css --use autoprefixer --dir dist/css/ --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss-cli": "^10.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1% in JP"
+  ]
+}
